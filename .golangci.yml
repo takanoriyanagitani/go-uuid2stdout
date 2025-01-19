@@ -1,0 +1,17 @@
+linters:
+  enable-all: true
+  disable:
+    - exportloopref
+    - nonamedreturns
+    - ireturn
+    - gochecknoglobals
+    - revive
+    - stylecheck
+    - depguard
+    - forbidigo
+
+linters-settings:
+  interfacebloat:
+    max: 16
+  gocyclo:
+    min-complexity: 10
